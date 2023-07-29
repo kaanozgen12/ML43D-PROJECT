@@ -20,7 +20,7 @@ Limitations of existing 3D data representations
 
 - **Inference**: to extract a 3D mesh from the learned fθ(p, x), the paper uses a Multiresolution IsoSurface Extraction (MISE) algorithm, which as a first step is building an octree by progressively sampling the points where neighbors' occupancy predictions do not match. After that, the Marching Cubes algorithm is applied to extract the mesh surface.
 
-### **Network Architecture**
+### ** Occupancy Network Architecture**
 - The network architecture is generally the same across different tasks (e.g. single image 3D reconstruction or point cloud completion) with the task-specific encoder being the only changing element.
 ![](images/occnet.png)
 
@@ -48,7 +48,7 @@ ViT has two major components:
 - The sequence of embeddings is then fed into the Transformer encoder, which processes them using multi-head self-attention layers.
 
 Dividing the image and adding positional embeddings:
-![](images/vit_patch.png)
+![](images/vit_patch.jpg)
 
 ### **2D Positional Encoding**
 - ViT uses a fixed positional encoding similar to the one used in the original Transformer.
