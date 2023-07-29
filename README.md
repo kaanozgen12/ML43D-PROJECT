@@ -1,4 +1,4 @@
-# **Occupancy Networks with Vision Transformers**
+# **3D Reconstruction from Single Image Using Occupancy Network with Vision Transformer Architecture**
 
 The project aims to improve the performance of the Occupancy Network by incorporating the Vision Transformer (ViT) architecture into the model.
 
