@@ -2,6 +2,19 @@
 
 The project aims to improve the performance of the Occupancy Network by incorporating the Vision Transformer (ViT) architecture into the model.
 
+Please view our slides here:  <a href="Final%20Presentation%20-%20ML3D.pdf"><img src="https://img.shields.io/badge/PDF-Slide-brightgreen"/></a>   
+Please view our report here: <a href="Report.pdf"><img src="https://img.shields.io/badge/PDF-Report-red"/></a>   
+
+It is the course of **Machine Learning for 3D Geometry (IN2392)** from TU Munich.  
+
+## 1. How to run this project?
+Please refer to the Jupyter Notebook file for training, mesh generation, and evaluation
+- ModifiedOccNet.ipynb  
+## 2. Dataset
+Download the preprocessed ShapeNet dataset and please prepare a large space (better if more than about 73.4 GB) for it.  
+A GPU environment is preferred.  Dataset will not be published due to large data size but dowload script is a part of the Jupyter Notebook mentioned above.
+
+
 ## **1. Occupancy Networks: Learning 3D Reconstruction in Function Space**
 
 ### **Approach**
