@@ -76,9 +76,9 @@ Dividing the image and adding positional embeddings:
 ![](images/vit-occ.png)
 
 The proposed network for 3D reconstruction from a single image consists of:
-   -   The ResNet Backbone for feature extraction used in Occupancy Network is replaced with Vision Transformer
-   -   Conditional Group Norm was used for only merging feature vector and the position vector
-   -   In decoder, batch norms are used for normalization.
+   -   The ResNet Backbone for feature extraction used in Occupancy Network is replaced with Vision Transformer.
+   -   Conditional batch normalization was utilized to effectively integrate the point cloud and embedding data.
+   -   Standard CNN was employed instead of fully-connected ResNet-blocks to generate occupancy probabilities.
 
 By incorporating the Vision Transformer into the Occupancy Network, we aimed to leverage the powerful capabilities of self-attention and improve the performance of 3D reconstruction tasks.
 
