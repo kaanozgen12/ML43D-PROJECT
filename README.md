@@ -72,7 +72,7 @@ Dividing the image and adding positional embeddings:
 - The Transformer encoder enriches embeddings through the multi-head self-attention layers. One notable difference from the original encoder is that ViT adds the positional encodings to the input of each multi-head attention layer.
 - ViT does not have a decoder as it is primarily used for image classification tasks. However, the output embeddings can be used for various downstream tasks.
 
-## **3. Proposed Architecture**
+## **3. Proposed Architecture ( ViTOcNet )**
 ![](images/vit-occ.png)
 
 The proposed network for 3D reconstruction from a single image consists of:
