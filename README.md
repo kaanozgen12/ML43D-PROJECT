@@ -3,7 +3,7 @@
 The project aims to improve the performance of the Occupancy Network by incorporating the Vision Transformer (ViT) architecture into the model.
 
 Please view our slides here:  <a href="Final%20Presentation%20-%20ML3D.pdf"><img src="https://img.shields.io/badge/PDF-Slide-brightgreen"/></a>   
-Please view our report here: <a href="Report.pdf"><img src="https://img.shields.io/badge/PDF-Report-red"/></a>   
+Please view our report here: <a href="ML43D_Final_Report.pdf"><img src="https://img.shields.io/badge/PDF-Report-red"/></a>   
 
 It is the course of **Machine Learning for 3D Geometry (IN2392)** from TU Munich.  
 
