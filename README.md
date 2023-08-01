@@ -9,7 +9,7 @@ It is the course of **Machine Learning for 3D Geometry (IN2392)** from TU Munich
 
 ## 1. How to run this project?
 Please refer to the Jupyter Notebook file for training, mesh generation, and evaluation
-- ModifiedOccNet.ipynb  
+- ViTOcNet.ipynb  
 ## 2. Dataset
 Download the preprocessed ShapeNet dataset and please prepare a large space (better if more than about 73.4 GB) for it.  
 A GPU environment is preferred.  Dataset will not be published due to large data size but dowload script is a part of the Jupyter Notebook mentioned above.
